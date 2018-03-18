@@ -1,6 +1,6 @@
 # Contributing #
 
-[![Join the chat at https://gitter.im/LouisBarranqueiro/hexo-theme-tranquilpeak](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/LouisBarranqueiro/hexo-theme-tranquilpeak?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/JimiHFord/hexo-theme-feelings](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/JimiHFord/hexo-theme-feelings?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 All kinds of contributions (enhancements, new features, documentation & code improvements, issues & bugs reporting) are welcome.
 
@@ -24,7 +24,7 @@ When you create an issue to report a bug or ask a question, please include your 
  - Node version
  - Hexo version
  - Hexo-cli version
- - Tranquilpeak version
+ - Feelings version
 
 and all others related information that are susceptible to help us.
 

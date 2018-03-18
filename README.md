@@ -1,10 +1,10 @@
-# Tranquilpeak
+# Feelings
 
-[![Join the chat at https://gitter.im/LouisBarranqueiro/hexo-theme-tranquilpeak](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/LouisBarranqueiro/hexo-theme-tranquilpeak?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/JimiHFord/hexo-theme-feelings](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/JimiHFord/hexo-theme-feelings?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 A gorgeous responsive theme for Hexo blog framework 
 
-[![Tranquilpeak](http://d1u9biwaxjngwg.cloudfront.net/showcases/showcase-v1.11.0.jpg)](http://louisbarranqueiro.github.io/hexo-theme-tranquilpeak)
+[![Feelings](http://d1u9biwaxjngwg.cloudfront.net/showcases/showcase-v1.11.0.jpg)](http://louisbarranqueiro.github.io/hexo-theme-feelings)
 
 ## Summary ##
 
@@ -63,26 +63,26 @@ A gorgeous responsive theme for Hexo blog framework
  
 ## Quick start ##
 
-**Please read [user documentation](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/blob/master/docs/user.md), it's short and useful to discover all features and possibilities of the theme, especially the  [writing posts](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/blob/master/docs/user.md#writing-posts) section**
+**Please read [user documentation](https://github.com/JimiHFord/hexo-theme-feelings/blob/master/docs/user.md), it's short and useful to discover all features and possibilities of the theme, especially the  [writing posts](https://github.com/JimiHFord/hexo-theme-feelings/blob/master/docs/user.md#writing-posts) section**
 
-##### For people who want to use the original version of Tranquilpeak without modifications (users)
+##### For people who want to use the original version of Feelings without modifications (users)
 
-1. Download the latest version ready for production use here : [hexo-theme-tranquilpeak-prod-1.11.0](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/releases/download/v1.11.0/hexo-theme-tranquilpeak-built-for-production-1.11.0.zip)
-2. Follow [user documentation](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/blob/master/docs/user.md) to install and configure the theme  
+1. Download the latest version ready for production use here : [hexo-theme-feelings-prod-1.11.0](https://github.com/JimiHFord/hexo-theme-feelings/releases/download/v1.11.0/hexo-theme-feelings-built-for-production-1.11.0.zip)
+2. Follow [user documentation](https://github.com/JimiHFord/hexo-theme-feelings/blob/master/docs/user.md) to install and configure the theme  
 
-##### For people who want to create their own version of tranquilpeak (developers) 
+##### For people who want to create their own version of feelings (developers) 
 
-1. Run `git clone https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak.git`  
-2. Follow [developer documentation](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/blob/master/docs/developer.md) to edit and build the theme  
+1. Run `git clone https://github.com/JimiHFord/hexo-theme-feelings.git`  
+2. Follow [developer documentation](https://github.com/JimiHFord/hexo-theme-feelings/blob/master/docs/developer.md) to edit and build the theme  
 
 ## Demo  ##
 
-Check out Tranquilpeak theme in live : [hexo-theme-tranquilpeak demo](http://louisbarranqueiro.github.io/hexo-theme-tranquilpeak)
+Check out Feelings theme in live : [hexo-theme-feelings demo](http://louisbarranqueiro.github.io/hexo-theme-feelings)
 
 ## Showcase ##
 
-I would like to create a showcase with all blogs that use Tranquilpeak, please, add your blog into.  
-**Click [here](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/issues/new?title=Add%20my%20blog%20into%20the%20showcase&body=Hey,%20add%20my%20blog%20into%20the%20showcase:) to add your blog into the showcase.**
+I would like to create a showcase with all blogs that use Feelings, please, add your blog into.  
+**Click [here](https://github.com/JimiHFord/hexo-theme-feelings/issues/new?title=Add%20my%20blog%20into%20the%20showcase&body=Hey,%20add%20my%20blog%20into%20the%20showcase:) to add your blog into the showcase.**
 
 ## Documentation ##
 
@@ -90,18 +90,18 @@ If it's your first time using Hexo, please check [Hexo official documentation](h
 
 ##### For users  
 
-To install and configure the theme, consult the following documentation : [user documentation](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/blob/master/docs/user.md)  
+To install and configure the theme, consult the following documentation : [user documentation](https://github.com/JimiHFord/hexo-theme-feelings/blob/master/docs/user.md)  
 
 ##### For developers
 
-To understand the code, the workflow and edit the theme, consult the following documentation : [developer documentation](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/blob/master/docs/developer.md)
+To understand the code, the workflow and edit the theme, consult the following documentation : [developer documentation](https://github.com/JimiHFord/hexo-theme-feelings/blob/master/docs/developer.md)
 
 ## Contributing ##
 
 All kinds of contributions (enhancements, new features, documentation & code improvements, issues & bugs reporting) are welcome.
 
-Read [guidelines for contributing](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/blob/master/.github/CONTRIBUTING.md) for more information.
+Read [guidelines for contributing](https://github.com/JimiHFord/hexo-theme-feelings/blob/master/.github/CONTRIBUTING.md) for more information.
 
 ## License ##
 
-hexo-theme-tranquilpeak is released under the terms of the [GNU General Public License v3.0](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/blob/master/LICENSE)
+hexo-theme-feelings is released under the terms of the [GNU General Public License v3.0](https://github.com/JimiHFord/hexo-theme-feelings/blob/master/LICENSE)

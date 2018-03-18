@@ -1,6 +1,6 @@
-# Tranquilpeak
-# Version : 1.11.0
-# Author : Louis Barranqueiro
+# Feelings
+# Version : 0.0.0
+# Author : Jimi Ford
 
 # I STRONGLY recommend you to use a CDN to speed up loading of pages.
 # There is many free CDN like Cloudinary or you can also use indirectly
@@ -128,13 +128,13 @@ author:
     # or you can use an external url
     # Overwritten by your gravatar image if `gravatar_email` is filled
     picture:
-    # Your Twitter username without the @. E.g : `tranquilpeak`
+    # Your Twitter username without the @. E.g : `inmyfeelings`
     twitter:
     # Your personal google plus profile id, not your blog or business page id.
     # E.g : `+JohnDoe` or `123812884128439`
     google_plus:
     # Your businnes google plus profile id. If not provided, personal will be used instead.
-    # E.g : `+Tranquilpeak` or `123812884128439`
+    # E.g : `+InMyFeelings` or `123812884128439`
     google_plus_business:
 
 
@@ -228,7 +228,7 @@ fb_app_id:
 
 # Comment and uncomment to enable or disable sharing options
 # If you wanna add a sharing option, read user documentation :
-# Tranquilpeak configuration > Theme configuration > sharing-options
+# Feelings configuration > Theme configuration > sharing-options
 sharing_options:
     facebook:
         icon: "fa-facebook-official"

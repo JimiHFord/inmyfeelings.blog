@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     'bower:dev',
     'syncAssets',
     'replace:cssFancybox',
-    'replace:cssTranquilpeak',
+    'replace:cssFeelings',
     'concat',
     'cssmin',
     'uglify',

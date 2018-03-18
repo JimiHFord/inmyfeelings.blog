@@ -198,14 +198,14 @@
     console.log('------------');
     console.log(
       '-> Auto excerpt feature doesn\'t exist anymore ' +
-      'since Tranquilpeak 1.4.0');
+      'since Feelings 0.0.0');
     console.log(
       '-> To overcome this, the \'<!-- excerpt -->\' tag will be inserted at ' +
       'the end of the first line of each posts which don\'t have ' +
       'excerpt tag');
     console.log(
       '-> Provide the name of your posts directory and the date of your ' +
-      'last post written with Tranquilpeak < v1.4.0');
+      'last post written with Feelings < v1.4.0');
     console.log('------------');
     // ask posts directory and date
     prompt.get([postsDirSchema, dateSchema], function(error, data) {
