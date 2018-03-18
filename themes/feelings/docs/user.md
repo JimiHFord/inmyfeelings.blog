@@ -2,13 +2,13 @@
 
 A gorgeous responsive theme for Hexo blog framework 
 
-[![Tranquilpeak](http://d1u9biwaxjngwg.cloudfront.net/showcases/showcase-v1.11.0.jpg)](http://louisbarranqueiro.github.io/hexo-theme-tranquilpeak)
+[![Feelings](http://d1u9biwaxjngwg.cloudfront.net/showcases/showcase-v1.11.0.jpg)](http://louisbarranqueiro.github.io/hexo-theme-feelings)
 
-Tranquilpeak theme is compatible with Hexo v3.0.x. The theme is compatible with higher versions of Hexo but these versions have some bugs with generation of relative urls so I recommend to use Hexo 3.0.x for the moment.
+Feelings theme is compatible with Hexo v3.0.x. The theme is compatible with higher versions of Hexo but these versions have some bugs with generation of relative urls so I recommend to use Hexo 3.0.x for the moment.
 
-This documentation will help you to install tranquilpeak-hexo-theme and configure it to use all features which it provides.  
+This documentation will help you to install feelings-hexo-theme and configure it to use all features which it provides.  
 
-If you want to report a bug or ask a question, [create an issue](https://github.com/LouisBarranqueiro/tranquilpeak-hexo-theme/issues/new).
+If you want to report a bug or ask a question, [create an issue](https://github.com/LouisBarranqueiro/feelings-hexo-theme/issues/new).
 
 ## Summary ##
 
@@ -21,7 +21,7 @@ If you want to report a bug or ask a question, [create an issue](https://github.
     * [Disable relative links](#disable-relative-links)
     * [Enable RSS feed](#enable-rss-feed)
     * [Define global keywords](#define-global-keywords)
-- [Tranquilpeak configuration](#tranquilpeak-configuration)
+- [Feelings configuration](#feelings-configuration)
     - [Language configuration](#language-configuration)
     - [Theme configuration](#theme-configuration)
         * [Sidebar](#sidebar)
@@ -106,12 +106,12 @@ If you want to report a bug or ask a question, [create an issue](https://github.
 
 ## Installation ##
 
-1. Download the latest version built and ready for production here : [hexo-theme-tranquilpeak-built-for-production-1.11.0](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/releases/download/v1.11.0/hexo-theme-tranquilpeak-built-for-production-1.11.0.zip)
-2. Rename the folder in `tranquilpeak` and place it in `themes` folder of your Hexo blog
+1. Download the latest version built and ready for production here : [hexo-theme-feelings-built-for-production-1.11.0](https://github.com/LouisBarranqueiro/hexo-theme-feelings/releases/download/v1.11.0/hexo-theme-feelings-built-for-production-1.11.0.zip)
+2. Rename the folder in `feelings` and place it in `themes` folder of your Hexo blog
 
 ## Hexo configuration ##
 
-Modify the theme in `_config.yml` by changing `theme` variable  to `tranquilpeak`
+Modify the theme in `_config.yml` by changing `theme` variable  to `feelings`
   
 If it's your first time using Hexo, please check [Hexo official documentation](https://hexo.io/docs/)
 
@@ -154,7 +154,7 @@ keywords:
 - javascript
 ```
 
-## Tranquilpeak configuration ##
+## Feelings configuration ##
 
 ### Language configuration ###
 
@@ -174,18 +174,18 @@ Currently, the theme is delivered with :
 If your language is not available, follow this guidelines (E.g : add russian language (ru) :  
 
 1. Set `language` to `ru` in Hexo configuration file `_config.yml`  
-2. Create `ru.yml` file in `theme/tranquilpeak/languages/` folder  
-3. Copy the content of `theme/tranquilpeak/languages/en.yml` and paste it to `ru.yml` file  
+2. Create `ru.yml` file in `theme/feelings/languages/` folder  
+3. Copy the content of `theme/feelings/languages/en.yml` and paste it to `ru.yml` file  
 4. Replace all strings in english by their translation in russian  
 5. Complete your description and your job in russian and that's it!  
 
-Otherwise, complete your description and your job in the right language file(s) in `theme/tranquilpeak/languages`.
+Otherwise, complete your description and your job in the right language file(s) in `theme/feelings/languages`.
 
-**Tranquilpeak theme is currently not ready to support multi-languages. It will be in a next release.**
+**Feelings theme is currently not ready to support multi-languages. It will be in a next release.**
 
 ### Theme configuration ###
 
-Complete `theme/tranquilpeak/_config.yml` with your information. Read above sections to have more information.
+Complete `theme/feelings/_config.yml` with your information. Read above sections to have more information.
 
 #### Sidebar
 
@@ -303,8 +303,8 @@ author:
 |email|Your mail address. This address will be used to get your gravatar image if you activate gravatar option|
 |location|Your location|
 |picture|Your profile picture. Overwritten by your gravatar image if gravatar email is filled|
-|twitter|Your Twitter username without the @. E.g : `tranquilpeak`|
-|google_plus|Your google plus profile id. E.g : `+TranquilPeak` or `123812884128439`|
+|twitter|Your Twitter username without the @. E.g : `feelings`|
+|google_plus|Your google plus profile id. E.g : `+InMyFeelings` or `123812884128439`|
 
 #### Customization
 
@@ -390,7 +390,7 @@ sharing_options:
         icon: "fa-foo_bar"
         url: "https://www.foo_bar.com/sharer/sharer.php?u={{post.permalink}}"
 ```
-2. Add a line in the language file that you use (location: `themes/tranquilpeak/languages/`)
+2. Add a line in the language file that you use (location: `themes/feelings/languages/`)
 ``` yaml
 global:
     share_on_foo_bar: "Share on Foo Bar"
@@ -404,7 +404,7 @@ global:
 
 ### Enable pages ###
 
-Tranquilpeak provides you 3 pages to display all posts title and date by tags, by categories, by date and an about page. To enable one of this pages, 
+Feelings provides you 3 pages to display all posts title and date by tags, by categories, by date and an about page. To enable one of this pages, 
 read following step.
 
 #### Enable all-categories page
@@ -490,7 +490,7 @@ algolia:
   apiKey: "12db1ad54372045549ef465881c17e743"
   adminApiKey: "40321c7c207e7f73b63a19aa24c4761b"
   chunkSize: 5000
-  indexName: "tranquilpeak"
+  indexName: "feelings"
   fields:
     - title
     - date
@@ -524,9 +524,9 @@ Follow these steps, to add new filter :
 
 ### Prerequisites ###
 
-Since you are going to edit the theme, you have to install all the necessary to build it after changes : [Installation](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/blob/master/docs/developer.md#installation)
+Since you are going to edit the theme, you have to install all the necessary to build it after changes : [Installation](https://github.com/LouisBarranqueiro/hexo-theme-feelings/blob/master/docs/developer.md#installation)
 
-**Run command in theme folder : `hexo-blog/themes/tranquilpeak`**
+**Run command in theme folder : `hexo-blog/themes/feelings`**
 
 ### Change global style ###
 
@@ -534,14 +534,14 @@ If you want to change font families, font size, sidebar color, things like that,
 
 ### Change code coloration (Highlight.js theme) ###
 
-Tranquilpeak integrate its own highlight.js theme inspired by GitHub. 
+Feelings integrate its own highlight.js theme inspired by GitHub. 
 Of course, you can replace it with an other theme found on highlight.js repository. Since Hexo use different CSS class names, all theme are not ready out of the box, but it is very easy to make them compatible. 
 
 Follow these steps :
 
 1. Get your theme here : [Highlight.js theme](https://github.com/isagalaev/highlight.js/tree/master/src/styles) or create yours
 2. Follow guidelines in `source/_css/themes/hljs-custom.scss` file
-3. Build the theme with `npm run prod` or `grunt buildProd`. Learn more about Grunt tasks : [Grunt tasks](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/blob/master/docs/developer.md#grunt-tasks)
+3. Build the theme with `npm run prod` or `grunt buildProd`. Learn more about Grunt tasks : [Grunt tasks](https://github.com/LouisBarranqueiro/hexo-theme-feelings/blob/master/docs/developer.md#grunt-tasks)
 
 ### Customize 404 error page
 
@@ -569,13 +569,13 @@ Finally, you need to tell your server to use `/404.html` (which Hexo generates o
 
 ### Prerequisites ###
 
-Since you are going to edit the theme, you have to install all the necessary to build it after changes : [Installation](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/blob/master/docs/developer.md#installation)
+Since you are going to edit the theme, you have to install all the necessary to build it after changes : [Installation](https://github.com/LouisBarranqueiro/hexo-theme-feelings/blob/master/docs/developer.md#installation)
 
 ### v1.3.0 or lower to v1.4.0 or higher ###
 
-If you used Tranquilpeak v1.3.0 or lower, you used maybe the  auto excerpt feature  : If there is no tag `<!-- more -->` in your post, so the excerpt is defined by cut the content after 250 characters.
+If you used Feelings v1.3.0 or lower, you used maybe the  auto excerpt feature  : If there is no tag `<!-- more -->` in your post, so the excerpt is defined by cut the content after 250 characters.
   
-Auto excerpt feature doesn't exist anymore since Tranquilpeak v1.4.0. And now, when there is no tag `<-- more -->` and `<!-- excerpt -->` in your post, the post is not cut and it will be displayed entirely on index page. 
+Auto excerpt feature doesn't exist anymore since Feelings v1.4.0. And now, when there is no tag `<-- more -->` and `<!-- excerpt -->` in your post, the post is not cut and it will be displayed entirely on index page. 
 Maybe, you don't want to display entirely all of your old posts. So If you have a lot of posts to edit and you don't want to do to define the excerpt manually, use our script to automate this task.
   
 With the migration script, the `<!-- excerpt -->` tag will be inserted at the end of the line of each posts which don't have an excerpt tag (more and excerpt).
@@ -583,7 +583,7 @@ With the migration script, the `<!-- excerpt -->` tag will be inserted at the en
 1. Run `hexo migrate 1.4.0` in your blog directory. 
 2. It will ask you :
   * The name of the directory that contains all of your post (default: **_posts**) 
-  * The date of your last post written with a version of Tranquil anterior to 1.4.0
+  * The date of your last post written with a version of Feelings anterior to 1.4.0
 3. Your old posts will be put in **_1.4.0_old_posts** directory and the new posts in **_posts**
 
 #### Known issues
@@ -607,9 +607,9 @@ To use tags plugins to highlight code or add Fancybox image, please read [Hexo d
 
 ### Front-matter settings ###
 
-Tranquilpeak introduces new variables to give you a lot of possibilities.  
+Feelings introduces new variables to give you a lot of possibilities.  
 
-**Since Tranquilpeak 1.7, if you declare some photos in `photos` variable with a caption or an thumbnail url, please use `gallery` variable name instead of `photos` otherwise Hexo will generate wrong url for these images in open graph meta tag.**
+**Since Feelings 1.7, if you declare some photos in `photos` variable with a caption or an thumbnail url, please use `gallery` variable name instead of `photos` otherwise Hexo will generate wrong url for these images in open graph meta tag.**
   
 Example :  
 ``` markdown
@@ -646,9 +646,9 @@ actions: false
 |thumbnailImage|Image displayed in index view.|
 |thumbnailImagePosition|Display thumbnail image at the right of title in index pages (`right`, `left` or `bottom`). `thumbnailImagePosition` overwrite the setting `thumbnail_image_position` in the theme configuration file|
 |metaAlignment|Meta (title, date and categories) alignment (right, left or center). Default behavior : left|
-|coverImage|Image displayed in full size at the top of your post in post view. If thumbnail image is not configured, cover image is also used as thumbnail image. Check the beautiful demo here : [Cover image demo](http://louisbarranqueiro.github.io/hexo-theme-tranquilpeak/2015/05/13/Cover-image-showcase/)|
+|coverImage|Image displayed in full size at the top of your post in post view. If thumbnail image is not configured, cover image is also used as thumbnail image. Check the beautiful demo here : [Cover image demo](http://louisbarranqueiro.github.io/hexo-theme-feelings/2015/05/13/Cover-image-showcase/)|
 |coverSize|`partial`: cover image take a part of the screen height (60%), `full`: cover image take the entire screen height.|
-|coverCaption|Add a caption under the cover image : [Cover caption demo](http://louisbarranqueiro.github.io/hexo-theme-tranquilpeak/2015/05/13/Cover-image-showcase/)|
+|coverCaption|Add a caption under the cover image : [Cover caption demo](http://louisbarranqueiro.github.io/hexo-theme-feelings/2015/05/13/Cover-image-showcase/)|
 |coverMeta|`in`: display post meta (title, date and categories) on cover image, `out`: display meta (title, date and categories) under cover image as usual. Default behavior : `in`|
 |gallery|Formerly **photos**. Images displayed in an image gallery (with fancybox) at the end of the post. If thumbnail image is not configured and cover image too, the first photo is used as thumbnail image. format: `original url [thumbnail url] [caption]`, E.g : `https://example.com/original.jpg https://example.com/thumbnail.jpg "New York"`|
 |comments|Disable the comment of the post.|
@@ -657,13 +657,13 @@ actions: false
 
 Example: 
 A post on index page will look like this with :`thumbnailImagePosition` set to `bottom`:  
-![thumbnail-image-position-bottom](https://s3-ap-northeast-1.amazonaws.com/tranquilpeak-hexo-theme/docs/1.4.0/TIP-bottom-400.jpg)  
+![thumbnail-image-position-bottom](https://s3-ap-northeast-1.amazonaws.com/feelings-hexo-theme/docs/1.4.0/TIP-bottom-400.jpg)  
   
 The same with : `thumbnailImagePosition` set to `right`:  
-![thumbnail-image-position-right](https://s3-ap-northeast-1.amazonaws.com/tranquilpeak-hexo-theme/docs/1.4.0/TIP-right-400.png)  
+![thumbnail-image-position-right](https://s3-ap-northeast-1.amazonaws.com/feelings-hexo-theme/docs/1.4.0/TIP-right-400.png)  
   
 The same with : `thumbnailImagePosition` set to `left`:  
-![thumbnail-image-position-left](https://s3-ap-northeast-1.amazonaws.com/tranquilpeak-hexo-theme/docs/1.4.0/TIP-left-400.png)  
+![thumbnail-image-position-left](https://s3-ap-northeast-1.amazonaws.com/feelings-hexo-theme/docs/1.4.0/TIP-left-400.png)  
 
 
 
@@ -672,7 +672,7 @@ Of course, you can set external url.**
 
 ### Define post excerpt ###
 
-Tranquilpeak v1.4.0 introduce a new way to define post excerpt with `<!-- excerpt -->` comment. Use 
+Feelings v1.4.0 introduce a new way to define post excerpt with `<!-- excerpt -->` comment. Use 
 - `<!-- more -->` to define post excerpt and keep the post excerpt in the post content
 - `<!-- excerpt -->` to define post excerpt and remove the post excerpt of the post content
 
@@ -685,18 +685,18 @@ Tranquilpeak v1.4.0 introduce a new way to define post excerpt with `<!-- excerp
 As post excerpt feature enable with `<!-- more -->` comment, you can display the table of contents of a post with  `<!-- toc -->`.  Place this comment where you want to display the table of content. You can also edit the title displayed at the top of the table of contents in the `_config.yml` file
   
 Here is what looks like the table of contents generated:  
-![thumbnail-image-position-left](https://s3-ap-northeast-1.amazonaws.com/tranquilpeak-hexo-theme/docs/1.4.0/toc-400.png) 
+![thumbnail-image-position-left](https://s3-ap-northeast-1.amazonaws.com/feelings-hexo-theme/docs/1.4.0/toc-400.png) 
   
 ### Tags ###
 
-Tranquilpeak introduce new tags to display alert messages, images in full width and create beautiful galleries.
+Feelings introduce new tags to display alert messages, images in full width and create beautiful galleries.
 **DON'T use anymore fancybox tag**. Please use `image` tag with `fancybox` class to generate them. More information here : [Image tag](#image) 
 
 #### Alert
 
-![alert-tag](https://s3-ap-northeast-1.amazonaws.com/tranquilpeak-hexo-theme/docs/1.6/alert-tag.png)
+![alert-tag](https://s3-ap-northeast-1.amazonaws.com/feelings-hexo-theme/docs/1.6/alert-tag.png)
 
-Alert tag is useful to highlight a content like a tips or a warning. Check it live here : [Alert tag demo](http://louisbarranqueiro.github.io/hexo-theme-tranquilpeak/2014/10/29/Tags-plugins-showcase/#Alerts)
+Alert tag is useful to highlight a content like a tips or a warning. Check it live here : [Alert tag demo](http://louisbarranqueiro.github.io/hexo-theme-feelings/2014/10/29/Tags-plugins-showcase/#Alerts)
 
 Syntax :  
 ```
@@ -718,9 +718,9 @@ Here is a danger alert without icon
 
 #### Highlight Text
 
-![highlight_text-tag](https://s3-ap-northeast-1.amazonaws.com/tranquilpeak-hexo-theme/docs/1.6/highlight_text-tag.png)
+![highlight_text-tag](https://s3-ap-northeast-1.amazonaws.com/feelings-hexo-theme/docs/1.6/highlight_text-tag.png)
 
-Highlight text tag is useful to highlight an interesting part in a text. Check it live here : [Highlight text tag demo](http://louisbarranqueiro.github.io/hexo-theme-tranquilpeak/2014/10/29/Tags-plugins-showcase/#Highlight-text)
+Highlight text tag is useful to highlight an interesting part in a text. Check it live here : [Highlight text tag demo](http://louisbarranqueiro.github.io/hexo-theme-feelings/2014/10/29/Tags-plugins-showcase/#Highlight-text)
 
 Syntax :  
 ```
@@ -757,14 +757,14 @@ E.g (rgba color) :
 
 #### Image
 
-Image tag is useful to add images and create beautiful galleries. Check what are the possibilities here : [Image tag demo](http://louisbarranqueiro.github.io/hexo-theme-tranquilpeak/2014/10/29/Tags-plugins-showcase/#Images)
+Image tag is useful to add images and create beautiful galleries. Check what are the possibilities here : [Image tag demo](http://louisbarranqueiro.github.io/hexo-theme-feelings/2014/10/29/Tags-plugins-showcase/#Images)
 
 Syntax : `{% image [classes] group:group-name /path/to/image [/path/to/thumbnail] [width of thumbnail] [height of thumbnail] [title text] %}`  
 E.g : `{% image fancybox right clear group:travel image2.png http://google.fr/images/image125.png 150px 300px "A beautiful sunrise" %}`
 
 |Argument|Description|
 |---|---| 
-|Classes (optional)|You can add css classes to stylize the image. Separate class with whitespace. Tranquilpeak integrate many css class to create nice effects :  <ul><li><strong>fancybox</strong> : Generate a fancybox image.</li><li><strong>nocaption</strong> : Caption of the image will not be displayed.</li><li><strong>left</strong> : Image will float at the left.</li><li><strong>right</strong> : Image will float at the right.</li><li><strong>center</strong> : Image will be at center.</li><li><strong>fig-20</strong> : Image will take 20% of the width of post width and automatically float at left.</li><li><strong>fig-25</strong> : Image will take 25% of the width of post width and automatically float at left.</li><li><strong>fig-33</strong> : Image will take 33% of the width of post width and automatically float at left.</li><li><strong>fig-50</strong> : Image will take 50% of the width of post width and automatically float at left.</li><li><strong>fig-75</strong> : Image will take 75% of the width of post width and automatically float at left.</li><li><strong>fig-100</strong> : Image will take 100% of the width of post width.</li><li><strong>clear</strong> : Add a div with `clear:both;` style attached after the image to retrieve the normal flow of the post.</li></ul>|
+|Classes (optional)|You can add css classes to stylize the image. Separate class with whitespace. Feelings integrate many css class to create nice effects :  <ul><li><strong>fancybox</strong> : Generate a fancybox image.</li><li><strong>nocaption</strong> : Caption of the image will not be displayed.</li><li><strong>left</strong> : Image will float at the left.</li><li><strong>right</strong> : Image will float at the right.</li><li><strong>center</strong> : Image will be at center.</li><li><strong>fig-20</strong> : Image will take 20% of the width of post width and automatically float at left.</li><li><strong>fig-25</strong> : Image will take 25% of the width of post width and automatically float at left.</li><li><strong>fig-33</strong> : Image will take 33% of the width of post width and automatically float at left.</li><li><strong>fig-50</strong> : Image will take 50% of the width of post width and automatically float at left.</li><li><strong>fig-75</strong> : Image will take 75% of the width of post width and automatically float at left.</li><li><strong>fig-100</strong> : Image will take 100% of the width of post width.</li><li><strong>clear</strong> : Add a div with `clear:both;` style attached after the image to retrieve the normal flow of the post.</li></ul>|
 |Group (optional)| Name of a group, used to create a gallery. **Only for image with `fancybox` css class**|
 |Orignal image| Path to the original image.|
 |Thumbnail image (optional)| Path to the thumbnail image. If empty, the orignal image will be displayed.|
@@ -776,9 +776,9 @@ E.g : `{% image fancybox right clear group:travel image2.png http://google.fr/im
 
 Tabbed code blocks are useful to group multiple code blocks related. For example, the source code of a web component (html, css and js). Or compare a source code in different languages.
 
-![tabbed_codeblock-tag](https://s3-ap-northeast-1.amazonaws.com/tranquilpeak-hexo-theme/docs/1.7/tabbed_codeblock-tag.png)
+![tabbed_codeblock-tag](https://s3-ap-northeast-1.amazonaws.com/feelings-hexo-theme/docs/1.7/tabbed_codeblock-tag.png)
 
-Check it live : [tabbed code block demo](http://louisbarranqueiro.github.io/hexo-theme-tranquilpeak/2014/10/29/Tags-plugins-showcase/#Tabbed-code-block)
+Check it live : [tabbed code block demo](http://louisbarranqueiro.github.io/hexo-theme-feelings/2014/10/29/Tags-plugins-showcase/#Tabbed-code-block)
 
 Syntax :
 ``` js
@@ -810,7 +810,7 @@ E.g :
 
 #### Wide image
 
-Wide image tag is useful to display wide images in full width. It take the entire window width. Check the the result : [Wide image tag demo](http://louisbarranqueiro.github.io/hexo-theme-tranquilpeak/2014/10/29/Tags-plugins-showcase/#Wide-images)
+Wide image tag is useful to display wide images in full width. It take the entire window width. Check the the result : [Wide image tag demo](http://louisbarranqueiro.github.io/hexo-theme-feelings/2014/10/29/Tags-plugins-showcase/#Wide-images)
 
 Syntax : `{% wide_image /path/to/image [title text] %}`  
 E.g : `{% wide_image http://google.fr/images/image125.png "A beautiful sunrise" %}`  
@@ -822,7 +822,7 @@ E.g : `{% wide_image http://google.fr/images/image125.png "A beautiful sunrise" 
 
 #### Fancybox
 
-`fancybox` tag is deprecated since Tranquilpeak 1.3. Please use `image` tag with `fancybox` class to generate them. More information here : [Image tag](#image) 
+`fancybox` tag is deprecated since Feelings 1.3. Please use `image` tag with `fancybox` class to generate them. More information here : [Image tag](#image) 
 
 ## Running ##
 

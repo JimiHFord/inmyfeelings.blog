@@ -6,6 +6,6 @@ module.exports = function(grunt) {
     'syncAssets',
     'linkAssets',
     'replace:cssFancybox',
-    'replace:cssTranquilpeak'
+    'replace:cssFeelings'
   ]);
 };

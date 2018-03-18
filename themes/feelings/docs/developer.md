@@ -1,8 +1,8 @@
 # Developer documentation #
 
-This documentation will help you to understand Tranquilpeak Hexo theme code.  
+This documentation will help you to understand Feelings Hexo theme code.  
 
-If you want to report a bug or ask a question, [create an issue](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/issues/new).
+If you want to report a bug or ask a question, [create an issue](https://github.com/JimiHFord/hexo-theme-feelings/issues/new).
 
 ## Summary ##
 
@@ -43,16 +43,16 @@ If you want to report a bug or ask a question, [create an issue](https://github.
 
 ## Installation ##
 
-1. Run `git clone https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak.git`
-2. Rename the folder in `tranquilpeak` and place it in `themes` folder of your Hexo blog
-3. Modify the theme in `_config.yml` by changing `theme` variable  to `tranquilpeak`
-4. Complete `theme/tranquilpeak/_config.yml` with your information by following directives in comments
-5. Go in `theme/tranquilpeak` folder with `cd themes/tranquilpeak`
+1. Run `git clone https://github.com/JimiHFord/hexo-theme-feelings.git`
+2. Rename the folder in `feelings` and place it in `themes` folder of your Hexo blog
+3. Modify the theme in `_config.yml` by changing `theme` variable  to `feelings`
+4. Complete `theme/feelings/_config.yml` with your information by following directives in comments
+5. Go in `theme/feelings` folder with `cd themes/feelings`
 6. Install [requirements](#requirements)
 7. Run `npm install` to install [NPM dependencies](#npm-dependencies)
 8. Run `bower install` to install [Bower dependencies](#bower-dependencies) 
 
-If you want to configure the theme, please follow the [user documentation](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak/blob/master/docs/user.md)  
+If you want to configure the theme, please follow the [user documentation](https://github.com/JimiHFord/hexo-theme-feelings/blob/master/docs/user.md)  
 
 ## Code style ##
 
@@ -67,7 +67,7 @@ grunt eslint
 ## Code structure ##
 
 ```
-tranquilpeak
+feelings
 ├── .github
 ├── docs
 ├── languages
@@ -227,24 +227,24 @@ Use `npm run <script_name>` to run one of these scripts. E.g : `npm run start`
 
 ``` javascript
 // Js files to inject in `layout/_partial/script.ejs`
-var tranquilpeakJsFilesToInject = [
+var feelingsJsFilesToInject = [
     'jquery.js',
     'jquery.fancybox.js',
     'jquery.fancybox-thumbs.js',
-    'tranquilpeak.js'
+    'feelings.js'
 ];
 // Css files to inject in `layout/_partial/head.ejs`
-var tranquilpeakCssFilesToInject = [
+var feelingsCssFilesToInject = [
     'font-awesome.css',
     'jquery.fancybox.css',
     'jquery.fancybox-thumbs.css',
-    'tranquilpeak.css'
+    'feelings.css'
 ];
 ```
 |Variable|Description|
 |---|---|
-|tranquilpeakJsFilesToInject|Files injected in `layout/_partial/script.ejs` (developement environment)|
-|tranquilpeakCssFilesToInject|Files injected in`layout/_partial/head.ejs` (developement environment)|
+|feelingsJsFilesToInject|Files injected in `layout/_partial/script.ejs` (developement environment)|
+|feelingsCssFilesToInject|Files injected in`layout/_partial/head.ejs` (developement environment)|
 
 In the production environment, these javascript and stylesheets files are concatenated and minified into 1 javascript file and 1 stylesheet file and linked to their respective views.
 
@@ -254,12 +254,12 @@ In the production environment, these javascript and stylesheets files are concat
 |---|---|
 |bower|Copy all needed files by types from bower dependencies|
 |clean|Delete `source/assets` folder|
-|concat|<ul><li>devJs : Concat all javascript files located in `source/_js/` into 1 file : `source/assets/js/tranquilpeak.js`</li><li>prodCss : Concat all stylesheets files located in `source/assets/css/` into 1 file : `source/assets/css/style.css`</li><li>prodJs : Concat all javascript listed in `tasks/pipeline.js` in 1 file : `source/assets/js/script.js`</li></ul>|
+|concat|<ul><li>devJs : Concat all javascript files located in `source/_js/` into 1 file : `source/assets/js/feelings.js`</li><li>prodCss : Concat all stylesheets files located in `source/assets/css/` into 1 file : `source/assets/css/style.css`</li><li>prodJs : Concat all javascript listed in `tasks/pipeline.js` in 1 file : `source/assets/js/script.js`</li></ul>|
 |cssmin|Minify `source/assets/cssstyle.css` file in : `source/assets/cssstyle.min.css`|
 |exec|<ul><li>eslint : run `eslint .`</li></ul>|
-|replace|<ul><li>linker : Replace `EJS_ENDTAG` string to resolve a problem of ejs escaping with sails-linker tasks</li><li>cssFancybox : Resolve path of images in fancybox.css. Impossible to use an other plugin to do that because in the bower fancybox packages, css files and images are in the same folder and that not the case in assets folder.</li><li>cssTranquilpeak : Resolve path of images and fonts in tranquilpeak.css.</li></ul>|
+|replace|<ul><li>linker : Replace `EJS_ENDTAG` string to resolve a problem of ejs escaping with sails-linker tasks</li><li>cssFancybox : Resolve path of images in fancybox.css. Impossible to use an other plugin to do that because in the bower fancybox packages, css files and images are in the same folder and that not the case in assets folder.</li><li>cssFeelings : Resolve path of images and fonts in feelings.css.</li></ul>|
 |sails-linker|<ul><li>devJs : Link all javascript files listed in `tasks/pipeline.js`  to `layout/_partial/script.ejs`</li><li>devCss : Link all stylesheets files listed in `tasks/pipeline.js`  to `layout/_partial/head.ejs`</li><li>prodJs : Link `source/assets/js/script.min.js` file in `layout/_partial/script.ejs`</li><li>prodCss : Link `source/assets/js/style.min.css` file in `layout/_partial/head.ejs`</li></ul>|
-|sass|Compile `source/_css/tranquilpeak.scss` file in `source/assets/css/tranquilpeak.css`|
+|sass|Compile `source/_css/feelings.scss` file in `source/assets/css/feelings.css`|
 |sync|Synchronize images from `source/_images` to `source/assets/images` and fonts from `source/_fonts` to `source/assets/fonts`|
 |watch|Watch assets from `source/_*/**/*` folder to detect changes and launch `syncAssets` task|
 

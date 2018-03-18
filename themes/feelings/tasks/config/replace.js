@@ -26,11 +26,11 @@ module.exports = function(grunt) {
         to: 'url(\'../images/'
       }]
     },
-    // Modify url of images and fonts in tranquilpeak.css to resolve images and fonts path.
-    cssTranquilpeak: {
+    // Modify url of images and fonts in feelings.css to resolve images and fonts path.
+    cssFeelings: {
       overwrite: true,
       src: [
-        'source/assets/css/tranquilpeak.css'
+        'source/assets/css/feelings.css'
       ],
       replacements: [{
         from: /url\(\"[.\/]+_images\//,

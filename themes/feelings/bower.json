@@ -1,9 +1,9 @@
 {
-  "name": "hexo-theme-tranquilpeak",
-  "version": "1.11.0",
+  "name": "hexo-theme-feelings",
+  "version": "0.0.0",
   "description": "A gorgeous responsive theme for Hexo blog framework",
   "authors": [
-    "Louis Barranqueiro"
+    "Jimi Ford"
   ],
   "license": "GNU General Public License v3.0",
   "ignore": [
