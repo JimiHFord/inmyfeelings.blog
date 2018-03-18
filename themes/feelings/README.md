@@ -4,7 +4,7 @@
 
 A gorgeous responsive theme for Hexo blog framework 
 
-[![Feelings](http://d1u9biwaxjngwg.cloudfront.net/showcases/showcase-v1.11.0.jpg)](http://louisbarranqueiro.github.io/hexo-theme-feelings)
+[![Feelings](http://d1u9biwaxjngwg.cloudfront.net/showcases/showcase-v1.11.0.jpg)](http://jimihford.github.io/hexo-theme-feelings)
 
 ## Summary ##
 
@@ -20,8 +20,8 @@ A gorgeous responsive theme for Hexo blog framework
 
 ## General ##
 
-- **Author** : Louis Barranqueiro
-- **Version** : 1.11.0
+- **Author** : Jimi Ford
+- **Version** : 0.0.0
 - **Compatibility** : Node v4 or later, Hexo 3.0.0 or later 
 
 ## Features ##
@@ -77,7 +77,7 @@ A gorgeous responsive theme for Hexo blog framework
 
 ## Demo  ##
 
-Check out Feelings theme in live : [hexo-theme-feelings demo](http://louisbarranqueiro.github.io/hexo-theme-feelings)
+Check out Feelings theme in live : [hexo-theme-feelings demo](http://jimihford.github.io/hexo-theme-feelings)
 
 ## Showcase ##
 

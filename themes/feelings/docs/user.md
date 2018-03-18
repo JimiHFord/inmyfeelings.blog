@@ -2,13 +2,13 @@
 
 A gorgeous responsive theme for Hexo blog framework 
 
-[![Feelings](http://d1u9biwaxjngwg.cloudfront.net/showcases/showcase-v1.11.0.jpg)](http://louisbarranqueiro.github.io/hexo-theme-feelings)
+[![Feelings](http://d1u9biwaxjngwg.cloudfront.net/showcases/showcase-v1.11.0.jpg)](http://jimihford.github.io/hexo-theme-feelings)
 
 Feelings theme is compatible with Hexo v3.0.x. The theme is compatible with higher versions of Hexo but these versions have some bugs with generation of relative urls so I recommend to use Hexo 3.0.x for the moment.
 
-This documentation will help you to install feelings-hexo-theme and configure it to use all features which it provides.  
+This documentation will help you to install hexo-theme-feelings and configure it to use all features which it provides.  
 
-If you want to report a bug or ask a question, [create an issue](https://github.com/LouisBarranqueiro/feelings-hexo-theme/issues/new).
+If you want to report a bug or ask a question, [create an issue](https://github.com/JimiHFord/hexo-theme-feelings/issues/new).
 
 ## Summary ##
 
@@ -41,7 +41,7 @@ If you want to report a bug or ask a question, [create an issue](https://github.
     * [Change code coloration (Highlight.js theme)](#change-code-coloration-highlightjs-theme)
     * [Customize 404 error page](#customize-404-error-page)
 - [Migrating posts](#migrating-posts)
-    * [v1.3.0 or lower to v1.4.0 or higher](#v130-or-lower-to-v140-or-higher)
+    * [v1.3.0 or lower to v0.0.0 or higher](#v130-or-lower-to-v140-or-higher)
 - [Writing posts](#writing-posts)
     * [Front-matter settings](#front-matter-settings)
     * [Define post excerpt](#define-post-excerpt)
@@ -58,8 +58,8 @@ If you want to report a bug or ask a question, [create an issue](https://github.
 
 ## General ##
 
-- **Author** : Louis Barranqueiro
-- **Version** : 1.11.0
+- **Author** : Jimi Ford
+- **Version** : 0.0.0
 - **Compatibility** : Node v4 or later, Hexo v3.0.0 or later
 
 ## Features ##
@@ -106,7 +106,7 @@ If you want to report a bug or ask a question, [create an issue](https://github.
 
 ## Installation ##
 
-1. Download the latest version built and ready for production here : [hexo-theme-feelings-built-for-production-1.11.0](https://github.com/LouisBarranqueiro/hexo-theme-feelings/releases/download/v1.11.0/hexo-theme-feelings-built-for-production-1.11.0.zip)
+1. Download the latest version built and ready for production here : [hexo-theme-feelings-built-for-production-1.11.0](https://github.com/JimiHFord/hexo-theme-feelings/releases/download/v1.11.0/hexo-theme-feelings-built-for-production-1.11.0.zip)
 2. Rename the folder in `feelings` and place it in `themes` folder of your Hexo blog
 
 ## Hexo configuration ##
@@ -340,10 +340,10 @@ tag_pagination: true
 
 E.g :  
 A category page look like this with `category_pagination: true` :  
-![archives false](http://d1u9biwaxjngwg.cloudfront.net/docs/1.4.0/ud-archives-true-300.png)  
+![archives false](http://d1u9biwaxjngwg.cloudfront.net/docs/0.0.0/ud-archives-true-300.png)  
 
 The same page with `category_pagination: false`:  
-![archives false](http://d1u9biwaxjngwg.cloudfront.net/docs/1.4.0/ud-archives-false-300.png)  
+![archives false](http://d1u9biwaxjngwg.cloudfront.net/docs/0.0.0/ud-archives-false-300.png)  
 
 
 #### Integrated services
@@ -465,8 +465,8 @@ On this page, users will be able to search and filter posts.
 ### Algolia ###
 
 The search modal of the theme use Algolia API to search in your posts. Of course, you have to create an account on Algolia to use it. Follow these steps to enable search modal :
-1. Install [hexo-algoliaseach](https://github.com/LouisBarranqueiro/hexo-algoliasearch) at the root of your blog folder with `npm install hexo-algoliasearch --save`
-2. Configure the plugin by following [hexo-algoliaseach - Configuration](https://github.com/LouisBarranqueiro/hexo-algoliasearch#configuration). **Some fields are required to use it with this theme**
+1. Install [hexo-algoliaseach](https://github.com/JimiHFord/hexo-algoliasearch) at the root of your blog folder with `npm install hexo-algoliasearch --save`
+2. Configure the plugin by following [hexo-algoliaseach - Configuration](https://github.com/JimiHFord/hexo-algoliasearch#configuration). **Some fields are required to use it with this theme**
 3. Run `hexo algolia` to index your posts on Algolia. 
 4. Configure the search on your Algolia dashboard.
 
@@ -524,7 +524,7 @@ Follow these steps, to add new filter :
 
 ### Prerequisites ###
 
-Since you are going to edit the theme, you have to install all the necessary to build it after changes : [Installation](https://github.com/LouisBarranqueiro/hexo-theme-feelings/blob/master/docs/developer.md#installation)
+Since you are going to edit the theme, you have to install all the necessary to build it after changes : [Installation](https://github.com/JimiHFord/hexo-theme-feelings/blob/master/docs/developer.md#installation)
 
 **Run command in theme folder : `hexo-blog/themes/feelings`**
 
@@ -541,7 +541,7 @@ Follow these steps :
 
 1. Get your theme here : [Highlight.js theme](https://github.com/isagalaev/highlight.js/tree/master/src/styles) or create yours
 2. Follow guidelines in `source/_css/themes/hljs-custom.scss` file
-3. Build the theme with `npm run prod` or `grunt buildProd`. Learn more about Grunt tasks : [Grunt tasks](https://github.com/LouisBarranqueiro/hexo-theme-feelings/blob/master/docs/developer.md#grunt-tasks)
+3. Build the theme with `npm run prod` or `grunt buildProd`. Learn more about Grunt tasks : [Grunt tasks](https://github.com/JimiHFord/hexo-theme-feelings/blob/master/docs/developer.md#grunt-tasks)
 
 ### Customize 404 error page
 
@@ -569,22 +569,22 @@ Finally, you need to tell your server to use `/404.html` (which Hexo generates o
 
 ### Prerequisites ###
 
-Since you are going to edit the theme, you have to install all the necessary to build it after changes : [Installation](https://github.com/LouisBarranqueiro/hexo-theme-feelings/blob/master/docs/developer.md#installation)
+Since you are going to edit the theme, you have to install all the necessary to build it after changes : [Installation](https://github.com/JimiHFord/hexo-theme-feelings/blob/master/docs/developer.md#installation)
 
-### v1.3.0 or lower to v1.4.0 or higher ###
+### v1.3.0 or lower to v0.0.0 or higher ###
 
 If you used Feelings v1.3.0 or lower, you used maybe the  auto excerpt feature  : If there is no tag `<!-- more -->` in your post, so the excerpt is defined by cut the content after 250 characters.
   
-Auto excerpt feature doesn't exist anymore since Feelings v1.4.0. And now, when there is no tag `<-- more -->` and `<!-- excerpt -->` in your post, the post is not cut and it will be displayed entirely on index page. 
+Auto excerpt feature doesn't exist anymore since Feelings v0.0.0. And now, when there is no tag `<-- more -->` and `<!-- excerpt -->` in your post, the post is not cut and it will be displayed entirely on index page. 
 Maybe, you don't want to display entirely all of your old posts. So If you have a lot of posts to edit and you don't want to do to define the excerpt manually, use our script to automate this task.
   
 With the migration script, the `<!-- excerpt -->` tag will be inserted at the end of the line of each posts which don't have an excerpt tag (more and excerpt).
 
-1. Run `hexo migrate 1.4.0` in your blog directory. 
+1. Run `hexo migrate 0.0.0` in your blog directory. 
 2. It will ask you :
   * The name of the directory that contains all of your post (default: **_posts**) 
-  * The date of your last post written with a version of Feelings anterior to 1.4.0
-3. Your old posts will be put in **_1.4.0_old_posts** directory and the new posts in **_posts**
+  * The date of your last post written with a version of Feelings anterior to 0.0.0
+3. Your old posts will be put in **_0.0.0_old_posts** directory and the new posts in **_posts**
 
 #### Known issues
 
@@ -646,9 +646,9 @@ actions: false
 |thumbnailImage|Image displayed in index view.|
 |thumbnailImagePosition|Display thumbnail image at the right of title in index pages (`right`, `left` or `bottom`). `thumbnailImagePosition` overwrite the setting `thumbnail_image_position` in the theme configuration file|
 |metaAlignment|Meta (title, date and categories) alignment (right, left or center). Default behavior : left|
-|coverImage|Image displayed in full size at the top of your post in post view. If thumbnail image is not configured, cover image is also used as thumbnail image. Check the beautiful demo here : [Cover image demo](http://louisbarranqueiro.github.io/hexo-theme-feelings/2015/05/13/Cover-image-showcase/)|
+|coverImage|Image displayed in full size at the top of your post in post view. If thumbnail image is not configured, cover image is also used as thumbnail image. Check the beautiful demo here : [Cover image demo](http://jimihford.github.io/hexo-theme-feelings/2015/05/13/Cover-image-showcase/)|
 |coverSize|`partial`: cover image take a part of the screen height (60%), `full`: cover image take the entire screen height.|
-|coverCaption|Add a caption under the cover image : [Cover caption demo](http://louisbarranqueiro.github.io/hexo-theme-feelings/2015/05/13/Cover-image-showcase/)|
+|coverCaption|Add a caption under the cover image : [Cover caption demo](http://jimihford.github.io/hexo-theme-feelings/2015/05/13/Cover-image-showcase/)|
 |coverMeta|`in`: display post meta (title, date and categories) on cover image, `out`: display meta (title, date and categories) under cover image as usual. Default behavior : `in`|
 |gallery|Formerly **photos**. Images displayed in an image gallery (with fancybox) at the end of the post. If thumbnail image is not configured and cover image too, the first photo is used as thumbnail image. format: `original url [thumbnail url] [caption]`, E.g : `https://example.com/original.jpg https://example.com/thumbnail.jpg "New York"`|
 |comments|Disable the comment of the post.|
@@ -657,13 +657,13 @@ actions: false
 
 Example: 
 A post on index page will look like this with :`thumbnailImagePosition` set to `bottom`:  
-![thumbnail-image-position-bottom](https://s3-ap-northeast-1.amazonaws.com/feelings-hexo-theme/docs/1.4.0/TIP-bottom-400.jpg)  
+![thumbnail-image-position-bottom](https://s3-ap-northeast-1.amazonaws.com/hexo-theme-feelings/docs/0.0.0/TIP-bottom-400.jpg)  
   
 The same with : `thumbnailImagePosition` set to `right`:  
-![thumbnail-image-position-right](https://s3-ap-northeast-1.amazonaws.com/feelings-hexo-theme/docs/1.4.0/TIP-right-400.png)  
+![thumbnail-image-position-right](https://s3-ap-northeast-1.amazonaws.com/hexo-theme-feelings/docs/0.0.0/TIP-right-400.png)  
   
 The same with : `thumbnailImagePosition` set to `left`:  
-![thumbnail-image-position-left](https://s3-ap-northeast-1.amazonaws.com/feelings-hexo-theme/docs/1.4.0/TIP-left-400.png)  
+![thumbnail-image-position-left](https://s3-ap-northeast-1.amazonaws.com/hexo-theme-feelings/docs/0.0.0/TIP-left-400.png)  
 
 
 
@@ -672,7 +672,7 @@ Of course, you can set external url.**
 
 ### Define post excerpt ###
 
-Feelings v1.4.0 introduce a new way to define post excerpt with `<!-- excerpt -->` comment. Use 
+Feelings v0.0.0 introduce a new way to define post excerpt with `<!-- excerpt -->` comment. Use 
 - `<!-- more -->` to define post excerpt and keep the post excerpt in the post content
 - `<!-- excerpt -->` to define post excerpt and remove the post excerpt of the post content
 
@@ -685,7 +685,7 @@ Feelings v1.4.0 introduce a new way to define post excerpt with `<!-- excerpt --
 As post excerpt feature enable with `<!-- more -->` comment, you can display the table of contents of a post with  `<!-- toc -->`.  Place this comment where you want to display the table of content. You can also edit the title displayed at the top of the table of contents in the `_config.yml` file
   
 Here is what looks like the table of contents generated:  
-![thumbnail-image-position-left](https://s3-ap-northeast-1.amazonaws.com/feelings-hexo-theme/docs/1.4.0/toc-400.png) 
+![thumbnail-image-position-left](https://s3-ap-northeast-1.amazonaws.com/hexo-theme-feelings/docs/0.0.0/toc-400.png) 
   
 ### Tags ###
 
@@ -694,9 +694,9 @@ Feelings introduce new tags to display alert messages, images in full width and 
 
 #### Alert
 
-![alert-tag](https://s3-ap-northeast-1.amazonaws.com/feelings-hexo-theme/docs/1.6/alert-tag.png)
+![alert-tag](https://s3-ap-northeast-1.amazonaws.com/hexo-theme-feelings/docs/1.6/alert-tag.png)
 
-Alert tag is useful to highlight a content like a tips or a warning. Check it live here : [Alert tag demo](http://louisbarranqueiro.github.io/hexo-theme-feelings/2014/10/29/Tags-plugins-showcase/#Alerts)
+Alert tag is useful to highlight a content like a tips or a warning. Check it live here : [Alert tag demo](http://jimihford.github.io/hexo-theme-feelings/2014/10/29/Tags-plugins-showcase/#Alerts)
 
 Syntax :  
 ```
@@ -718,9 +718,9 @@ Here is a danger alert without icon
 
 #### Highlight Text
 
-![highlight_text-tag](https://s3-ap-northeast-1.amazonaws.com/feelings-hexo-theme/docs/1.6/highlight_text-tag.png)
+![highlight_text-tag](https://s3-ap-northeast-1.amazonaws.com/hexo-theme-feelings/docs/1.6/highlight_text-tag.png)
 
-Highlight text tag is useful to highlight an interesting part in a text. Check it live here : [Highlight text tag demo](http://louisbarranqueiro.github.io/hexo-theme-feelings/2014/10/29/Tags-plugins-showcase/#Highlight-text)
+Highlight text tag is useful to highlight an interesting part in a text. Check it live here : [Highlight text tag demo](http://jimihford.github.io/hexo-theme-feelings/2014/10/29/Tags-plugins-showcase/#Highlight-text)
 
 Syntax :  
 ```
@@ -757,7 +757,7 @@ E.g (rgba color) :
 
 #### Image
 
-Image tag is useful to add images and create beautiful galleries. Check what are the possibilities here : [Image tag demo](http://louisbarranqueiro.github.io/hexo-theme-feelings/2014/10/29/Tags-plugins-showcase/#Images)
+Image tag is useful to add images and create beautiful galleries. Check what are the possibilities here : [Image tag demo](http://jimihford.github.io/hexo-theme-feelings/2014/10/29/Tags-plugins-showcase/#Images)
 
 Syntax : `{% image [classes] group:group-name /path/to/image [/path/to/thumbnail] [width of thumbnail] [height of thumbnail] [title text] %}`  
 E.g : `{% image fancybox right clear group:travel image2.png http://google.fr/images/image125.png 150px 300px "A beautiful sunrise" %}`
@@ -776,9 +776,9 @@ E.g : `{% image fancybox right clear group:travel image2.png http://google.fr/im
 
 Tabbed code blocks are useful to group multiple code blocks related. For example, the source code of a web component (html, css and js). Or compare a source code in different languages.
 
-![tabbed_codeblock-tag](https://s3-ap-northeast-1.amazonaws.com/feelings-hexo-theme/docs/1.7/tabbed_codeblock-tag.png)
+![tabbed_codeblock-tag](https://s3-ap-northeast-1.amazonaws.com/hexo-theme-feelings/docs/1.7/tabbed_codeblock-tag.png)
 
-Check it live : [tabbed code block demo](http://louisbarranqueiro.github.io/hexo-theme-feelings/2014/10/29/Tags-plugins-showcase/#Tabbed-code-block)
+Check it live : [tabbed code block demo](http://jimihford.github.io/hexo-theme-feelings/2014/10/29/Tags-plugins-showcase/#Tabbed-code-block)
 
 Syntax :
 ``` js
@@ -810,7 +810,7 @@ E.g :
 
 #### Wide image
 
-Wide image tag is useful to display wide images in full width. It take the entire window width. Check the the result : [Wide image tag demo](http://louisbarranqueiro.github.io/hexo-theme-feelings/2014/10/29/Tags-plugins-showcase/#Wide-images)
+Wide image tag is useful to display wide images in full width. It take the entire window width. Check the the result : [Wide image tag demo](http://jimihford.github.io/hexo-theme-feelings/2014/10/29/Tags-plugins-showcase/#Wide-images)
 
 Syntax : `{% wide_image /path/to/image [title text] %}`  
 E.g : `{% wide_image http://google.fr/images/image125.png "A beautiful sunrise" %}`  

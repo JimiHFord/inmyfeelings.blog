@@ -30,8 +30,8 @@ If you want to report a bug or ask a question, [create an issue](https://github.
 
 ## General ##
 
-- **Author** : Louis Barranqueiro
-- **Version** : 1.11.0
+- **Author** : Jimi Ford
+- **Version** : 0.0.0
 - **Compatibility** : Node v4 or later, Hexo v3.0.0 or later
 
 ## Requirements ##
