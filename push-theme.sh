@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo unimplemented
+git subtree push --prefix=themes/feelings --squash hexo-theme master
